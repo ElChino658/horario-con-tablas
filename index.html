@@ -3,57 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Horario</title>
+    <title>Horario - Tablas</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="padre">
-        <table class="horario">
-            <tr>
-                <th colspan="6">Horario PNFI - Periodo 01-26</th>
-            </tr>
-            <tr>
-                <th colspan="6">Trayecto 1 - Trimestre 1</th>
-            </tr>
-            <tr>
-                <th colspan="6">Sección 1 (Turno Mañana)</th>
-            </tr>
-            <tr>
-                <th class="dia">Horas</th> <th class="dia">Lunes</th> <th class="dia">Martes</th> <th class="dia">Miercoles</th> <th class="dia">Jueves</th> <th class="dia">Viernes</th>
-            </tr>
-            <tr>
-                <td class="tiempo_de_clases">08:00 - 08:45</td>
-                <td rowspan="3">Matemática I. Aula B-6</td>
-                <td rowspan="2">Proyecto Aula B-6</td>
-                <td rowspan="2"> Matemática I Aula 14</td>
-                <td rowspan="2">Electiva I Aula 14</td>
-                <td rowspan="2">Algorítmica y Programación G1 LAB. Sala 12 / Proyecto I G2 Aula 14</td>
-            </tr>
-            <tr>
-                <td class="tiempo_de_clases">08:45 - 09:30</td>
-            </tr>
-            <tr>
-                <td class="tiempo_de_clases">09:30 - 10:15</td>
-                <td rowspan="2">Formción Crítica Aula S16-A</td>
-                <td class="nada">nada</td>
-                <td rowspan="2">Arquitectura del Computador Aula 14</td>
-                <td rowspan="2">Algorítmica y Programación G2 LAB. Sala 12 / Proyecto I G1 Aula 14</td>
-            </tr>
-            <tr>
-                <td class="tiempo_de_clases">10:15 - 11:00</td>
-                <td rowspan="3">Electiva I LAB Sala 12</td>
-                <td rowspan="3">Arquitectura del Computador Laboratorio Mantennimiento</td>
-            </tr>
-            <tr>
-                <td class="tiempo_de_clases">11:00 - 11:45</td>
-                <td rowspan="2">Idiomas I Aula B-6</td>
-                <td rowspan="2">Algorítmica y Programación G1 y G2 Aula 14</td>
-                <td rowspan="2">Actividad Acreditable I Aula 14</td>
-            </tr>
-            <tr>
-                <td class="tiempo_de_clases">11:45 - 12:30</td>
-            </tr>
-        </table>
+    <div class="contenedor_principal">
+        <div id="padre">
+            <table class="horario">
+                <tr>
+                    <th colspan="6">Horario PNFI - Periodo 01-26</th>
+                </tr>
+                <tr>
+                    <th colspan="6">Trayecto 1 - Trimestre 1</th>
+                </tr>
+                <tr>
+                    <th colspan="6">Sección 1 (Turno Mañana)</th>
+                </tr>
+                <tr>
+                    <th class="dia">Horas</th> <th class="dia">Lunes</th> <th class="dia">Martes</th> <th class="dia">Miercoles</th> <th class="dia">Jueves</th> <th class="dia">Viernes</th>
+                </tr>
+                <tr>
+                    <td class="tiempo_de_clases">08:00 - 08:45</td>
+                    <td rowspan="3">Matemática I. Aula B-6</td>
+                    <td rowspan="2">Proyecto Aula B-6</td>
+                    <td rowspan="2"> Matemática I Aula 14</td>
+                    <td rowspan="2">Electiva I Aula 14</td>
+                    <td rowspan="2">Algorítmica y Programación G1 LAB. Sala 12 / Proyecto I G2 Aula 14</td>
+                </tr>
+                <tr>
+                    <td class="tiempo_de_clases">08:45 - 09:30</td>
+                </tr>
+                <tr>
+                    <td class="tiempo_de_clases">09:30 - 10:15</td>
+                    <td rowspan="2">Formción Crítica Aula S16-A</td>
+                    <td class="nada">nada</td>
+                    <td rowspan="2">Arquitectura del Computador Aula 14</td>
+                    <td rowspan="2">Algorítmica y Programación G2 LAB. Sala 12 / Proyecto I G1 Aula 14</td>
+                </tr>
+                <tr>
+                    <td class="tiempo_de_clases">10:15 - 11:00</td>
+                    <td rowspan="3">Electiva I LAB Sala 12</td>
+                    <td rowspan="3">Arquitectura del Computador Laboratorio Mantennimiento</td>
+                </tr>
+                <tr>
+                    <td class="tiempo_de_clases">11:00 - 11:45</td>
+                    <td rowspan="2">Idiomas I Aula B-6</td>
+                    <td rowspan="2">Algorítmica y Programación G1 y G2 Aula 14</td>
+                    <td rowspan="2">Actividad Acreditable I Aula 14</td>
+                </tr>
+                <tr>
+                    <td class="tiempo_de_clases">11:45 - 12:30</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="profesores">
+            <ul> <h3>Profesores:</h3>
+                <li>
+                    <b>Matemática I:</b> Profesor Alejandro Mata.
+                </li>
+                <li>
+                    <b>Arquitectura del Computador:</b> Profesora Yelizahelena Barrios.
+                </li>
+                <li>
+                    <b>Formación Crítica I:</b> Proffesora Rossiris Alvarez.
+                </li>
+                <li>
+                    <b>Algorítmica y Programación:</b> Profesora Yalil García.
+                </li>
+                <li>
+                    <b>Proyecto Sociotécnológico I: </b> Profesora Alicia Marcano.
+                </li>
+                <li>
+                    <b>Actividad Acreditable:</b> Profesora Wilmary Suniaga.
+                </li>
+                <li>
+                    <b>Idiomas:</b> Profesora Silvia Rodríguez.
+                </li>
+                <li>
+                    <b>Electiva I (Trim. 1):</b> Profesora Wilmary Sunniaga.
+                </li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>

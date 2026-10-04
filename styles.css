@@ -1,7 +1,16 @@
 body{
     display: flex;
+    justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 80px 20px;
+}
+
+.contenedor_principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 table, th, tr, td{
@@ -21,12 +30,14 @@ th{
 
 #padre{
     display: flex;
-    justify-content: center;
     text-align: center;
+    border: 5px solid black;
+    border-radius: 5%;
+    overflow: hidden;
 }
 
 .horario{
-    width: 90%;
+    max-width: 800px;
 }
 
 .tiempo_de_clases{
